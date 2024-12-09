@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "version": 1
+  },
+  "standard": {
+    "themeData": "default_dark"
+  },
+  "app": {
+    "appTitleColor": "0xFFFFFFFF"
+  },
+  "uikit": {
+    "loadingText": "loading text for dark"
+  }
+}

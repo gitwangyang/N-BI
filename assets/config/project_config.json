@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "serviceList": [
+    {
+      "projectCode": "008",
+      "ruleList": [
+        ".*/oneapp/api/v[^/]+/poi2car/.*",
+        ".*/oneapp/api/v[^/]+/navigation/.*",
+        ".*/oneapp/api/v[^/]+/media/onlinemusic/.*",
+        ".*/oneapp/api/v[^/]+/media/onlineradio/.*",
+        ".*/oneapp/api/v[^/]+/mno/(?!rnr/record$).*",
+        ".*/oneapp/api/v[^/]+/dealer/.*",
+        ".*/oneapp/api/v[^/]+/maintenance/.*",
+        ".*/oneapp/api/v[^/]+/rbc/.*",
+        ".*/oneapp/api/v[^/]+/bccm/.*",
+        ".*/oneapp/api/v[^/]+/rpt/.*",
+        ".*/oneapp/api/v[^/]+/climatisation/.*",
+        ".*/oneapp/api/v[^/]+/vehicle/status/.*",
+        ".*/oneapp/api/v[^/]+/vehicle/readiness/.*",
+        ".*/oneapp/api/v[^/]+/warninglights/.*",
+        ".*/oneapp/api/v[^/]+/chargingmap/.*",
+        ".*/oneapp/api/v[^/]+/charging/.*",
+        ".*/oneapp/api/v[^/]+/mdk/.*",
+        ".*/oneapp/api/v[^/]+/modecomposer/.*",
+        ".*/oneapp/api/v[^/]+/media/incar-ktv/.*",
+        ".*/oneapp/api/v[^/]+/cf/*",
+        ".*/oneapp/api/v[^/]+/rlu/.*",
+        ".*/oneapp/api/v[^/]+/carwatcher/.*",
+        ".*/oneapp/api/v[^/]+/vur/.*",
+        ".*/oneapp/api/v[^/]+/smartcompanion/.*",
+        ".*/oneapp/api/v[^/]+/aftersalesmdk/.*"
+      ],
+      "disableServiceList": []
+    }
+  ]
+}

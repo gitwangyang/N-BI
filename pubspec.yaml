@@ -1,0 +1,65 @@
+name: wheel_life
+description: "N比"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.08"
+  flutter: ">=2.10.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  uuid: ^3.0.7
+  # below is 3rd dependency
+  provider: ^6.0.5
+  dartz: ^0.10.1
+  kt_dart: ^1.1.0
+  rxdart: ^0.27.7
+  path_provider: ^2.0.15
+  file_picker: ^5.3.2
+#  package_info: ^2.0.2
+  home_widget: ^0.6.0
+  #network
+  dio: ^5.7.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/image/
+    - assets/themes/
+    - assets/config/
+    - assets/fonts/
+
+  fonts:
+    - family: VWHead_Bold
+      fonts:
+        - asset: assets/fonts/VWHead-Bold.otf
+    - family: VWHead_Regular
+      fonts:
+        - asset: assets/fonts/VWHead-Regular.otf
+    - family: HYQiHei_Bold
+      fonts:
+        - asset: assets/fonts/HYQiHei-80S.ttf
+    - family: HYQiHei_Regular
+      fonts:
+        - asset: assets/fonts/HYQiHei-60S.ttf
+
+
+# feature override 开发feature阶段使用
+dependency_overrides:
+  # 可能的flutter pub get问题
+  http: ^1.2.2
+  #兼容版本
+  win32: ^5.9.0
+  archive: ^4.0.1
