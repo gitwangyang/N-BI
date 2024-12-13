@@ -1,7 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:wheel_life/app_home/home_page.dart';
+import 'package:wheel_life/base/configs.dart';
+import 'package:wheel_life/utils/global/nav_key.dart';
+import 'package:wheel_life/utils/intl/basic_intl.dart';
+import 'package:wheel_life/utils/theme/basic_theme.dart';
 
 void main() {
-  runApp(const MyApp());
+  _realMain();
+
+  runApp(MaterialApp(
+    title: 'N比',
+    theme: presetThemeDataBuilder(themeLight).themeData,
+    darkTheme: presetThemeDataBuilder(themeDark).themeData,
+    themeMode: ThemeMode.system,
+    // 根据系统设置自动切换主题
+    supportedLocales: supportLocale,
+    localizationsDelegates: localizationsDelegates,
+    locale: intlType == IntlType.zh ? languageCodeZh : languageCodeEn,
+    home: HomePage(),
+  ));
+}
+
+Future<void> _realMain() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await _initBasicPartWithoutPrivacy();
+  // await wrapPrivacyCheck(_initBasicPartWithPrivacy);
+}
+
+/// 初始化不依赖隐私合规的部分
+Future<void> _initBasicPartWithoutPrivacy() async {
+  initTheme();
 }
 
 class MyApp extends StatelessWidget {
@@ -11,6 +39,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorKey: NavKey.navigatorKey,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.

@@ -1,0 +1,364 @@
+{
+  "@@locale": "en",
+  "appTitle": "OneAppEn",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "appVersion": "version",
+  "@appVersion": {
+    "description": "App Version"
+  },
+  "pageHomeTitle": "Home",
+  "@pageHomeTitle": {
+    "description": "Home page title"
+  },
+  "pageDiscoveryTitle": "Discovery",
+  "@pageDiscoveryTitle": {
+    "description": "Discovery page title"
+  },
+  "pageCategoryTitle": "Category",
+  "@pageCategoryTitle": {
+    "description": "Category page title"
+  },
+  "pageMessageTitle": "Message",
+  "@pageMessageTitle": {
+    "description": "Message page title"
+  },
+  "pageMyTitle": "My",
+  "@pageMyTitle": {
+    "description": "My page title"
+  },
+  "pageTestTitle": "Test",
+  "@pageTestTitle": {
+    "description": "Test page title"
+  },
+  "pageRecommendTitle": "Recommend",
+  "@pageRecommendTitle": {
+    "description": "Recommend page title"
+  },
+  "currentLanguage": "Current Language: {locale}",
+  "@currentLanguage": {
+    "description": "Current Language",
+    "placeholders": {
+      "locale": {
+        "description": "_"
+      }
+    }
+  },
+  "Common_btn_del": "Del",
+  "@Common_btn_del": {
+    "description": "通用 清除"
+  },
+  "Common_btn_delete": "删除",
+  "@Common_btn_delete": {
+    "description": "通用 删除"
+  },
+  "Common_btn_complete": "Complete",
+  "@Common_btn_complete": {
+    "description": "通用 完成"
+  },
+  "Common_btn_return": "Return",
+  "@Common_btn_return": {
+    "description": ""
+  },
+  "Common_btn_save": "Save",
+  "@Common_btn_save": {
+    "description": ""
+  },
+  "Common_text_cancel": "Cancel",
+  "@Common_text_cancel": {
+    "description": "取消"
+  },
+  "Common_text_confirm": "Confirm",
+  "@Common_text_confirm": {
+    "description": "确定"
+  },
+  "Common_text_toSetting": "Go to Set",
+  "@Common_text_toSetting": {
+    "description": "去设置"
+  },
+  "common_requestPermissionFailedDialog_title": "Request Permission Failed",
+  "@common_requestPermissionFailedDialog_title": {
+    "description": "公共请求权限失败弹框title"
+  },
+  "DialogForeLogoutForOtherDeviceTitle": "The Account Has been Logged in on Another Device",
+  "@DialogForeLogoutForOtherDeviceTitle": {
+    "description": "单点登录弹框标题"
+  },
+  "DialogForeLogoutForOtherDeviceContent": "Your account is already logged in on another mobile device. The current account will be logged out from this device.",
+  "@DialogForeLogoutForOtherDeviceContent": {
+    "description": "单点登录弹框内容"
+  },
+  "DialogForeLogoutForOtherDeviceConfirm": "OK",
+  "@DialogForeLogoutForOtherDeviceConfirm": {
+    "description": "单点登录弹框按钮文本"
+  },
+  "DialogSecurityWarningContent": "You have enabled developer mode. Please take care to protect your data",
+  "@DialogSecurityWarningContent": {
+    "description": "系统环境检测警告"
+  },
+  "DialogSecurityWarningNoMorePromote": "Got It",
+  "@DialogSecurityWarningNoMorePromote": {
+    "description": "系统环境检测警告，不再提醒"
+  },
+  "Permission_failureDialog_contact_title": "Discovery friends in Contacts",
+  "@Permission_failureDialog_contact_title": {
+    "description": "权限失败弹窗 通讯录 标题"
+  },
+  "Permission_failureDialog_contact_message": "Go into System Settings and authorize the rights for the application",
+  "@Permission_failureDialog_contact_message": {
+    "description": "权限失败弹窗 通讯录 内容"
+  },
+  "Permission_failureDialog_gallery_title": "Please allow to access your album",
+  "@Permission_failureDialog_gallery_title": {
+    "description": "权限失败弹窗 相册 标题"
+  },
+  "Permission_failureDialog_gallery_message": "You can set picture, scan QR code to bind vehicle",
+  "@Permission_failureDialog_gallery_message": {
+    "description": "权限失败弹窗 相册 内容"
+  },
+  "Permission_failureDialog_camera_title": "Please allow to access your camera",
+  "@Permission_failureDialog_camera_title": {
+    "description": "权限失败弹窗 相机 标题"
+  },
+  "Permission_failureDialog_camera_message": "You can set picture, scan QR code to bind vehicle",
+  "@Permission_failureDialog_camera_message": {
+    "description": "权限失败弹窗 相机 内容"
+  },
+  "Permission_failureDialog_location_title": "Please turn on location service",
+  "@Permission_failureDialog_location_title": {
+    "description": "权限失败弹窗 定位 标题"
+  },
+  "Permission_failureDialog_location_message": "",
+  "@Permission_failureDialog_location_message": {
+    "description": "权限失败弹窗 定位 内容 TBD"
+  },
+  "Permission_failureDialog_bluetooth_title": "Please turn on the Bluetooth",
+  "@Permission_failureDialog_bluetooth_title": {
+    "description": "权限失败弹窗 蓝牙 标题 TBD"
+  },
+  "Permission_failureDialog_bluetooth_message": "",
+  "@Permission_failureDialog_bluetooth_message": {
+    "description": "权限失败弹窗 蓝牙 内容 TBD"
+  },
+  "Permission_failureDialog_microphone_title": "Please turn on microphone privileges",
+  "@Permission_failureDialog_microphone_title": {
+    "description": "权限失败弹窗 麦克风 标题 TBD"
+  },
+  "Permission_failureDialog_microphone_message": "",
+  "@Permission_failureDialog_microphone_message": {
+    "description": "权限失败弹窗 麦克风 内容 TBD"
+  },
+  "ReLoginDialog_title": "Login expiration reminder",
+  "@ReLoginDialog_title": {
+    "description": "重新登录弹窗 标题"
+  },
+  "ReLoginDialog_message": "Login has expired, please log in again.",
+  "@ReLoginDialog_message": {
+    "description": "重新登录弹窗"
+  },
+  "ReLoginDialog_button": "OK",
+  "@ReLoginDialog_button": {
+    "description": "重新登录弹窗 按钮"
+  },
+  "ScopeFailedUnActivated": "The service is unavailable because the current vehicle does not have a real name.",
+  "@ScopeFailedUnActivated": {
+    "description": "scope 未激活导致"
+  },
+  "ScopeFailedNoPermission": "Your don't have enough permissions to use the service.",
+  "@ScopeFailedNoPermission": {
+    "description": "scope 未激活导致"
+  },
+  "AppNeedUpgradeDialog_title": "Version Upgrade Reminder",
+  "@AppNeedUpgradeDialog_title": {
+    "description": "app升级提示弹框 标题"
+  },
+  "AppNeedUpgradeDialog_content": "In order to provide better functionality and experience, we have launched a new client version. Please upgrade now to get the following benefits:\n\nA new interface involved, which is cleaner and more intuitive.\nFixed a number of issues to improve stability and performance.\nIntroduced new features to enrich your experience.",
+  "@AppNeedUpgradeDialog_content": {
+    "description": "app升级提示弹框 内容"
+  },
+  "AppNeedUpgradeDialog_confirm": "Upgrade Now",
+  "@AppNeedUpgradeDialog_confirm": {
+    "description": "app升级提示弹框 确认按钮"
+  },
+  "AppNeedUpgradeDialog_cancel": "Upgrade Later",
+  "@AppNeedUpgradeDialog_cancel": {
+    "description": "app升级提示弹框 取消按钮"
+  },
+  "AppLocalPrivacyPageTitle": "User Agreement and Privacy Protection",
+  "@AppLocalPrivacyPageTitle": {
+    "description": "用户协议与隐私保护"
+  },
+  "AppLocalPrivacyPageCententHead1": "We take your personal information and privacy protection very seriously. To better safeguard your personal rights and interests, please carefully read through all the terms and conditions of the",
+  "@AppLocalPrivacyPageCententHead1": {
+    "description": ""
+  },
+  "AppUserAgreementTitle": "\"User Agreement\"",
+  "@AppUserAgreementTitle": {
+    "description": "《用户协议》"
+  },
+  "AppPrivacyAgreementTitle": "\"Privacy Policy\"",
+  "@AppPrivacyAgreementTitle": {
+    "description": "《隐私政策》"
+  },
+  "AppAccountServiceTitle": "\"Account Service Agreement\"",
+  "@AppAccountServiceTitle": {
+    "description": "《账号服务协议》"
+  },
+  "AppLocalPrivacyPageCententHead2": "before using this product. To help you quickly understand the services we provide and how we collect your information, we hereby provide the following explanations:\n\n",
+  "@AppLocalPrivacyPageCententHead2": {
+    "description": ""
+  },
+  "AppLocalPrivacyPageCentent": "1）We will provide you with services such as vehicle ordering and related services, vehicle charging, remote viewing and control of the vehicle, and we will collect and use your relevant and necessary personal information.\n\n2）You can inquire, correct, and delete the personal information you have authorized us to collect, and we also provide you with channels to deactivate your account.\n\n3）We will adopt various security measures to ensure the safety of your personal information. Unless with your consent or as stipulated by relevant laws and regulations, we will not share your personal information with any third party.\n\n",
+  "@AppLocalPrivacyPageCentent": {
+    "description": ""
+  },
+  "AppLocalPrivacyPageEnding1": "Please carefully read the",
+  "@AppLocalPrivacyPageEnding1": {
+    "description": ""
+  },
+  "AppLocalPrivacyPageEnding2": "before using our products and services, and confirm whether you agree to them. If you agree to the above content, please click \"Agree\" to start using our products and services!",
+  "@AppLocalPrivacyPageEnding2": {
+    "description": ""
+  },
+  "AppUserAgreementAnd": "and",
+  "@AppUserAgreementAnd": {
+    "description": "《用户协议》"
+  },
+  "AppLocalPrivacyDialogTitle": "Agreement Acceptance Required to Proceed",
+  "@AppLocalPrivacyDialogTitle": {
+    "description": ""
+  },
+  "AppLocalPrivacyDialogContent": "We apologize, if you do not agree to the terms of the {agreementUrl}, {privacyUrl}, {accountServiceUrl}, we will not be able to continue to provide you with services",
+  "@AppLocalPrivacyDialogContent": {
+    "description": "",
+    "placeholders": {
+      "agreementUrl": {
+        "description": "用户协议"
+      },
+      "privacyUrl": {
+        "description": "隐私政策"
+      },
+      "accountServiceUrl": {
+        "description": "隐私政策"
+      }
+    }
+  },
+  "AppLocalPrivacyPageDilogAgree": "Agree",
+  "@AppLocalPrivacyPageDilogAgree": {
+    "description": ""
+  },
+  "AppLocalPrivacyPageDisagree": "Disagree",
+  "@AppLocalPrivacyPageDisagree": {
+    "description": ""
+  },
+  "AppLocalPrivacyPageDilogExitApp": "Exit App",
+  "@AppLocalPrivacyPageDilogExitApp": {
+    "description": ""
+  },
+  "online_support_title_bar": "Online Service",
+  "@online_support_title_bar": {
+    "description": ""
+  },
+  "AppNotSupportRootDialogTitle": "Not Supported on Rooted Devices",
+  "@AppNotSupportRootDialogTitle": {
+    "description": ""
+  },
+  "AppNotSupportRootDialogContent": "For safety purpose, please replace the device, thank you for your understanding and support.",
+  "@AppNotSupportRootDialogContent": {
+    "description": ""
+  },
+  "PermissionDesc_title": "{typeName} usage instructions",
+  "@PermissionDesc_title": {
+    "description": "权限说明弹窗标题",
+    "placeholders": {
+      "typeName": {
+        "description": "权限名称"
+      }
+    }
+  },
+  "PermissionDesc_typeName_camera": "Camera permission",
+  "@PermissionDesc_typeName_camera": {
+    "description": "权限说明弹窗类型 相机"
+  },
+  "PermissionDesc_typeName_gallery": "Gallery permission",
+  "@PermissionDesc_typeName_gallery": {
+    "description": "权限说明弹窗类型 相机"
+  },
+  "PermissionDesc_camera": "The App may require access to your phone's camera or gallery for features such as uploading product images for non-returnable items, bug feedback, personal profile cover customization, uploading documents. Without this permission, some features may not be usable.",
+  "@PermissionDesc_camera": {
+    "description": "权限说明文言 相机"
+  },
+  "PermissionDesc_typeName_contacts": "Contacts permission",
+  "@PermissionDesc_typeName_contacts": {
+    "description": "权限说明弹窗类型 通讯录"
+  },
+  "PermissionDesc_contacts": "When you create smart scenes and upload video or audio through the App, we may need to enable access to your device's media library. Without providing media library permission, you may not be able to use the corresponding features.",
+  "@PermissionDesc_contacts": {
+    "description": "权限说明文言 通讯录"
+  },
+  "permission_dialog_camera_title": "App wants to access your camera",
+  "@permission_dialog_camera_title": {
+    "description": "权限弹窗 相机 标题"
+  },
+  "permission_dialog_camera_content": "Camera permissions are used for functions such as uploading header image, and other functions that require taking photos or videos.",
+  "@permission_dialog_camera_content": {
+    "description": "权限弹窗 相机 内容"
+  },
+  "permission_dialog_location_title": "Allow App to use your location",
+  "@permission_dialog_location_title": {
+    "description": "权限弹窗 定位 标题"
+  },
+  "permission_dialog_location_content": "Nearby store recommendations, vehicle pick-up and drop off, obtaining vehicle location, maintenance appointments, remote parking assistance, and other functions require location permission. It is recommended that you choose \"Allow when using the App\" to ensure that these functions can be used normally.",
+  "@permission_dialog_location_content": {
+    "description": "权限弹窗 定位 内容"
+  },
+  "permission_dialog_storage_title": "App would like access your phone storage",
+  "@permission_dialog_storage_title": {
+    "description": "权限弹窗 存储 标题"
+  },
+  "permission_dialog_storage_content": "When you use the App to save images from the mall, save images for one-click charging, save PGC images, save article images, or upload or save images, we may need to access the storage permissions on your mobile device. If you do not provide access to your phone's storage, you may not be able to use the corresponding functions.",
+  "@permission_dialog_storage_content": {
+    "description": "权限弹窗 存储 内容"
+  },
+  "permission_dialog_calendar_title": "App would like access to your calendar",
+  "@permission_dialog_calendar_title": {
+    "description": "权限弹窗 日历 标题"
+  },
+  "permission_dialog_calendar_content": "When you use the App to add events and schedule reminders, we may need to access the calendar permissions on your mobile device. If you do not provide access to your calendar, you may not be able to use the corresponding functions.",
+  "@permission_dialog_calendar_content": {
+    "description": "权限弹窗 日历 内容"
+  },
+  "permission_dialog_gallery_title": "App wants to access your photo gallery",
+  "@permission_dialog_gallery_title": {
+    "description": "权限弹窗 图库 标题"
+  },
+  "permission_dialog_gallery_content": "Photo permissions are used for uploading header image, and other functions that require uploading photos or videos.",
+  "@permission_dialog_gallery_content": {
+    "description": "权限弹窗 图库 内容"
+  },
+  "permission_dialog_microphone_title": "App wants to access your microphone",
+  "@permission_dialog_microphone_title": {
+    "description": "权限弹窗 麦克风 标题"
+  },
+  "permission_dialog_microphone_content": "Microphone permission is used for voice notification and voice cloning functions.",
+  "@permission_dialog_microphone_content": {
+    "description": "权限弹窗 麦克风 内容"
+  },
+  "permission_dialog_contact_title": "App would like access to your contacts",
+  "@permission_dialog_contact_title": {
+    "description": "权限弹窗 通讯录 标题"
+  },
+  "permission_dialog_contact_content": "When you enter an emergency contact through the App, we may need to enable access to your contacts for inputting the name and phone number of the emergency contact.",
+  "@permission_dialog_contact_content": {
+    "description": "权限弹窗 通讯录 内容"
+  },
+  "permission_dialog_notification_title": "App Would Like to Send You Notifications",
+  "@permission_dialog_notification_title": {
+    "description": "权限弹窗 通知 标题"
+  },
+  "permission_dialog_notification_content": "Notification Permissions are used to provide you with notifications, updates, events, and other push notifications.",
+  "@permission_dialog_notification_content": {
+    "description": "权限弹窗 通知 内容"
+  }
+}

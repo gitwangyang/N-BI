@@ -13,18 +13,37 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  uuid: ^3.0.7
+  uuid: ^4.5.1
   # below is 3rd dependency
   provider: ^6.0.5
   dartz: ^0.10.1
   kt_dart: ^1.1.0
   rxdart: ^0.27.7
-  path_provider: ^2.0.15
+  path_provider: ^2.1.5
   file_picker: ^5.3.2
 #  package_info: ^2.0.2
   home_widget: ^0.6.0
   #network
   dio: ^5.7.0
+  dio_log: ^5.3.0
+  #route
+  flutter_modular: ^6.3.4
+  modular_interfaces: ^3.0.0
+  #logger
+  logger: ^2.5.0
+  #bloc
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  #添加尺寸.r
+  flutter_screenutil: ^5.9.3
+  #侧滑
+  flutter_slidable: ^3.1.1
+  #多语言
+  intl: ^0.19.0
+  #生成文件
+  intl_utils: ^2.0.0
+
+
 
 
 dev_dependencies:
@@ -63,3 +82,5 @@ dependency_overrides:
   #兼容版本
   win32: ^5.9.0
   archive: ^4.0.1
+flutter_intl:
+  enabled: true
