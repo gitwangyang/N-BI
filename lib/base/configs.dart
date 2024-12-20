@@ -2,7 +2,7 @@
 // debug
 import 'dart:ui';
 
-import 'package:wheel_life/utils/theme/basic_theme.dart';
+import 'package:n_bi/utils/theme/basic_theme.dart';
 
 import '../utils/intl/basic_intl.dart';
 
@@ -23,6 +23,12 @@ const languageCodeEn = Locale('en', 'US');
 //本地全局设置语言属性
 IntlType intlType = IntlType.en;
 
+/// 配置项
+class Configs {
+  static var packageName = '';
+  static var version = '';
+  Configs._();
+}
 
 
 

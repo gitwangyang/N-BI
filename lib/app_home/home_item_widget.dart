@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:wheel_life/app_home/home_cubit.dart';
-import 'package:wheel_life/utils/ui/widget_utils.dart';
+import 'package:n_bi/app_home/home_cubit.dart';
+import 'package:n_bi/utils/ui/widget_utils.dart';
 
 import '../utils/theme/one_colors.dart';
 import '../utils/ui/one_text_style.dart';

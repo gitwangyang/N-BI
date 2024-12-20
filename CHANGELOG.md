@@ -22,4 +22,31 @@ var brightnss = Theme.of(context).brightness;
 // 判断当前是否为黑夜模式
 bool isDarkMode = brightnss == Brightness.dark;
 
+# 四、插件式创建json模型
+1、搜索并安装该插件 FlutterJsonBeanFactory
+2、File->new->JsonToDartBeanAction->输入文件名、json串->Make->自动在lib目录下生成实例类文件，以及gennerated文件夹的辅助类
+3、调用方式：
+Map<String, dynamic> jsonMap = json.decode(jsonStr);
+TestEntity test1 = TestEntity().fromJson(jsonMap);
+TestEntity test2 = JsonConvert.fromJsonAsT<TestEntity>(jsonMap);
+4、如果对生成的xxx_entity添加、编辑、修改某个属性，执行Build->FlutterBeanFactory即可更新
+
+# 五、日志、吐司调用
+1、LogUtils.v('test')
+2、ToastUtils.toastUtil(S.current.net_work_error);
+
+# 六、api请求调用
+1、接口路径定义：lib/api/api_path
+2、接口调用方法定义：lib/api/api_service
+3、调用处使用方式：
+ApiService().httpFriendContacts(
+userId: 1,
+).observer(
+      onResListener: (response) {
+        if (response.isSuccess()) { }
+        },
+      onDataListener: (data) {},
+      onErrorListener: (e) {},
+    );
+
 

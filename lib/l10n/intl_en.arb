@@ -360,5 +360,9 @@
   "permission_dialog_notification_content": "Notification Permissions are used to provide you with notifications, updates, events, and other push notifications.",
   "@permission_dialog_notification_content": {
     "description": "权限弹窗 通知 内容"
+  },
+  "net_work_error": "Net connect error.",
+  "@net_work_error": {
+    "description": "网络连接异常"
   }
 }

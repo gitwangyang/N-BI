@@ -1,7 +1,7 @@
-name: wheel_life
+name: n_bi
 description: "N比"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0
+version: 0.0.1
 
 environment:
   sdk: ">=3.0.0 <4.0.08"
@@ -21,11 +21,18 @@ dependencies:
   rxdart: ^0.27.7
   path_provider: ^2.1.5
   file_picker: ^5.3.2
-#  package_info: ^2.0.2
+  #获取pubspec.yaml中的配置信息
+  package_info_plus: ^8.1.2
   home_widget: ^0.6.0
   #network
   dio: ^5.7.0
+  # logger
+  pretty_dio_logger: ^1.4.0
   dio_log: ^5.3.0
+  #
+  json_annotation: ^4.9.0
+  # 生成.g文件
+  freezed_annotation: ^2.4.4
   #route
   flutter_modular: ^6.3.4
   modular_interfaces: ^3.0.0
@@ -42,6 +49,14 @@ dependencies:
   intl: ^0.19.0
   #生成文件
   intl_utils: ^2.0.0
+  #加密解密
+  crypto: ^3.0.6
+  #hex
+  convert: ^3.1.2
+  #loading
+  flutter_easyloading: ^3.0.5
+  #toast
+  fluttertoast: ^8.2.10
 
 
 
@@ -50,6 +65,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  json_serializable: ^6.9.0
+  test: ^1.24.3
+  coverage: ^1.11.1
+  freezed: ^2.3.7
+
 
 flutter:
   uses-material-design: true

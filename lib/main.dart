@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:wheel_life/app_home/home_page.dart';
-import 'package:wheel_life/base/configs.dart';
-import 'package:wheel_life/utils/global/nav_key.dart';
-import 'package:wheel_life/utils/intl/basic_intl.dart';
-import 'package:wheel_life/utils/theme/basic_theme.dart';
+import 'package:n_bi/utils/theme/basic_theme.dart';
+import 'package:package_info_plus/package_info_plus.dart';
+
+import 'app_home/home_page.dart';
+import 'base/configs.dart';
+import 'utils/global/nav_key.dart';
+import 'utils/intl/basic_intl.dart';
+import 'utils/log_utils.dart';
 
 void main() {
   _realMain();
@@ -29,7 +32,23 @@ Future<void> _realMain() async {
 
 /// 初始化不依赖隐私合规的部分
 Future<void> _initBasicPartWithoutPrivacy() async {
+  initLog();
   initTheme();
+  initPackageInfo();
+}
+
+void initLog() {
+  LogUtils.init();
+}
+
+/// 初始化获取当前配置项中的信息，如版本，包名等
+Future<PackageInfo> initPackageInfo() async {
+  // 获取配置yaml中的配置信息
+  PackageInfo packageInfo = await PackageInfo.fromPlatform();
+  // 同步配置项中的信息给全局参数中
+  Configs.packageName = packageInfo.packageName;
+  Configs.version = packageInfo.version;
+  return packageInfo;
 }
 
 class MyApp extends StatelessWidget {

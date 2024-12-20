@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:wheel_life/base/configs.dart';
+import 'package:n_bi/base/configs.dart';
 
 import 'one_theme.dart';
 import 'base_standard_resource.dart';

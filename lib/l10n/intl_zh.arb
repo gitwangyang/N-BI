@@ -361,5 +361,9 @@
   "permission_dialog_notification_content": "通知权限用于为您提供通知、资讯、活动等推送消息",
   "@permission_dialog_notification_content": {
     "description": "权限弹窗 通知 内容"
+  },
+  "net_work_error": "网络连接异常",
+  "@net_work_error": {
+    "description": "网络连接异常"
   }
 }

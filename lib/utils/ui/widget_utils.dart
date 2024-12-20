@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:flutter_slidable/flutter_slidable.dart' as newslidable;
-import 'package:wheel_life/utils/ui/slidable_itme/slidable_itme.dart';
+import 'package:n_bi/utils/ui/slidable_itme/slidable_itme.dart';
 
 import '../../generated/l10n.dart';
 import '../global/global_callback.dart';

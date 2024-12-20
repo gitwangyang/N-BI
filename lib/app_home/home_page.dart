@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wheel_life/app_home/home_cubit.dart';
+import 'package:n_bi/app_home/home_cubit.dart';
 
 import '../base/configs.dart';
 import '../category/category_page.dart';
